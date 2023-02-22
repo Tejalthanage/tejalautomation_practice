@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 65.43 s <<< FAILURE! - in TestSuite
+isLogintoApp(Testpakage.loginTest)  Time elapsed: 5.963 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with locator By.xpath: //*[@id='pin']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'TEJAL', ip: '192.168.29.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at Testpakage.loginTest.isLogintoApp(loginTest.java:19)
+
+validatePage(Testpakage.loginTest)  Time elapsed: 0.046 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=109.0.1518.70)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'TEJAL', ip: '192.168.29.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [64bb70caff42d06d2d22ae2655118a76, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 109.0.1518.70, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56156}, msedge: {msedgedriverVersion: 109.0.1518.70 (f787d2c3a418..., userDataDir: C:\Users\sai\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56156/devtoo..., se:cdpVersion: 109.0.1518.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 64bb70caff42d06d2d22ae2655118a76
+	at Testpakage.loginTest.validatePage(loginTest.java:36)
+
+SearchShare(Testpakage.dashboardTest)  Time elapsed: 50.296 s  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=109.0.1518.70)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'TEJAL', ip: '192.168.29.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [64bb70caff42d06d2d22ae2655118a76, findElement {using=xpath, value=//*[@class='button-blue']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 109.0.1518.70, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:56156}, msedge: {msedgedriverVersion: 109.0.1518.70 (f787d2c3a418..., userDataDir: C:\Users\sai\AppData\Local\...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56156/devtoo..., se:cdpVersion: 109.0.1518.70, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 64bb70caff42d06d2d22ae2655118a76
+	at Testpakage.dashboardTest.SearchShare(dashboardTest.java:10)
+
